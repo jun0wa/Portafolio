@@ -10823,4 +10823,40 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+  /* ===== Modo oscuro personalizado ===== */
+body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.dark-mode .card {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    border-color: #333;
+}
+
+body.dark-mode .card-footer,
+body.dark-mode .card-header {
+    background-color: #262626;
+}
+
+body.dark-mode .bg-secondary {
+    background-color: #2a2a2a !important;
+}
+
+body.dark-mode footer.bg-dark {
+    background-color: #000 !important;
+}
+
+body.dark-mode a {
+    color: #8ab4f8;
+}
+
+#theme-toggle {
+    cursor: pointer;
+}
 }
