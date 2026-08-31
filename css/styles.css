@@ -10820,10 +10820,12 @@ textarea.form-control-lg {
   .d-print-inline-flex {
     display: inline-flex !important;
   }
-  .d-print-none {
+ .d-print-none {
     display: none !important;
-  } }
-body { transition: background-color 0.3s ease, color 0.3s ease; }
+  }
+}
+
+body {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -10831,7 +10833,6 @@ body.dark-mode {
     background-color: #121212;
     color: #e0e0e0;
 }
-
 body.dark-mode .card {
     background-color: #1e1e1e;
     color: #e0e0e0;
