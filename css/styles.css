@@ -10823,7 +10823,7 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
-  /* ===== Modo oscuro personalizado ===== */
+/* ===== Modo oscuro personalizado ===== */
 body {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
@@ -10858,5 +10858,4 @@ body.dark-mode a {
 
 #theme-toggle {
     cursor: pointer;
-}
 }
