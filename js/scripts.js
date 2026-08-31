@@ -5,8 +5,6 @@
 */
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
-
-const toggleBtn = document.getElementById('theme-toggle');
 /*!
 * Start Bootstrap - Small Business v5.0.6 (https://startbootstrap.com/template/small-business)
 * Copyright 2013-2023 Start Bootstrap
